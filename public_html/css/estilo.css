@@ -1,0 +1,52 @@
+/* 
+    Created on : 19-feb-2017, 20:39:20
+    Author     : Chihue
+*/
+
+body{
+    background-color: #E6E6E6 ;
+}
+
+header{
+    width: 80%;
+    text-align: center;
+ 
+}
+
+
+logo {
+    float: left;
+}
+
+menu{
+    position:relative;
+	width:91%;
+	 margin: 0 auto;
+	float: left;
+}
+
+nav ul{
+    list-style:none;
+    padding:0;
+}
+
+nav ul li{
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    margin-right:1px;
+    text-align:center;
+}
+
+nav ul li a{
+    color:#999;
+    padding:5px;
+    text-decoration:none;
+    /*Transiciones*/
+    transition: 0.4s linear all;
+}
+
+nav ul li a:hover {
+    color:#000;
+}
